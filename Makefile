@@ -9,7 +9,7 @@ run: project
 
 project: project.cob
 	@echo -n "compilation…"
-	@cobc -free -std=cobol85 -x -o project project.cob
+	@cobc -std=mf -x -o project project.cob
 	@echo " réussie!"
 
 clean:
